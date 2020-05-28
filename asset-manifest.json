@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/HubSpace/static/css/main.c54f1878.chunk.css",
+    "main.js": "/HubSpace/static/js/main.3603eead.chunk.js",
+    "main.js.map": "/HubSpace/static/js/main.3603eead.chunk.js.map",
+    "runtime-main.js": "/HubSpace/static/js/runtime-main.5b21e2c5.js",
+    "runtime-main.js.map": "/HubSpace/static/js/runtime-main.5b21e2c5.js.map",
+    "static/js/2.16f0c8e5.chunk.js": "/HubSpace/static/js/2.16f0c8e5.chunk.js",
+    "static/js/2.16f0c8e5.chunk.js.map": "/HubSpace/static/js/2.16f0c8e5.chunk.js.map",
+    "index.html": "/HubSpace/index.html",
+    "precache-manifest.fb050b3b0f6d6a3784c4e417049b5033.js": "/HubSpace/precache-manifest.fb050b3b0f6d6a3784c4e417049b5033.js",
+    "service-worker.js": "/HubSpace/service-worker.js",
+    "static/css/main.c54f1878.chunk.css.map": "/HubSpace/static/css/main.c54f1878.chunk.css.map",
+    "static/js/2.16f0c8e5.chunk.js.LICENSE.txt": "/HubSpace/static/js/2.16f0c8e5.chunk.js.LICENSE.txt",
+    "static/media/Atlassian-logo.png": "/HubSpace/static/media/Atlassian-logo.5d9b5cae.png",
+    "static/media/Classpass-logo.png": "/HubSpace/static/media/Classpass-logo.3feec6f6.png",
+    "static/media/DoorDash-logo.png": "/HubSpace/static/media/DoorDash-logo.6ffe7930.png",
+    "static/media/G2-Crowd-logo.png": "/HubSpace/static/media/G2-Crowd-logo.32829d63.png",
+    "static/media/Subaru-logo.png": "/HubSpace/static/media/Subaru-logo.7c7e0bf4.png",
+    "static/media/SurveyMonkey-logo.png": "/HubSpace/static/media/SurveyMonkey-logo.d52dcb1d.png",
+    "static/media/Vmware-logo.png": "/HubSpace/static/media/Vmware-logo.27bd2166.png",
+    "static/media/Wistia-logo.png": "/HubSpace/static/media/Wistia-logo.f13792e1.png",
+    "static/media/chat.png": "/HubSpace/static/media/chat.341f34ba.png",
+    "static/media/hero.svg": "/HubSpace/static/media/hero.bbf68fa5.svg",
+    "static/media/profile-pic.png": "/HubSpace/static/media/profile-pic.62bff120.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b21e2c5.js",
+    "static/js/2.16f0c8e5.chunk.js",
+    "static/css/main.c54f1878.chunk.css",
+    "static/js/main.3603eead.chunk.js"
+  ]
+}
