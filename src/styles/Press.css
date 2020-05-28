@@ -1,0 +1,44 @@
+.Press {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.Press-box {
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Press-text {
+    width: 35%;
+    text-align: left;
+}
+
+.Press-text h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.Press-text p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.Press-icons-container {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-box {
+    padding: 20px;
+}
+
+.icon-box img {
+    width: 100%;
+}

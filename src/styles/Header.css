@@ -1,0 +1,96 @@
+.Header {
+    background-color: #f7f8f9;
+    height: 80px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex; 
+    align-items: center; 
+    color: #33475b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.Header-box {
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-box-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.Header-box-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.language {
+    padding: 16px 24px 16px 0;
+}
+
+.globe {
+    margin: auto;
+}
+
+.lang-dropdown {
+    margin-left: 4px;
+}
+
+.sales {
+    cursor: pointer; 
+    padding: 6px 0px 6px 24px; 
+    border-left: 2px solid #d3d3d3; 
+}
+
+.btn-get {
+    background-color: #ff7a59;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    padding: 11px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    outline: none;
+}  
+
+.btn-get:hover {
+    opacity: 0.5;
+}
+
+.btn-login {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 11px 28px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    outline: none;
+}  
+
+.btn-login:hover {
+    background-color: rgba(255,220,204,0.5);
+}
+
+.ui.mini.input {
+    height: 28px;
+    width: 40%;
+    color: teal;
+}

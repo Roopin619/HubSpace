@@ -1,0 +1,77 @@
+.SoftwareMenu {
+    width: 525px;
+    height: 580px;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 10;
+    position: absolute;
+    padding: 0px 24px;
+    top: 100%;
+    left: -14px;
+    border: 1px solid #d3d3d3;
+}
+
+.SoftwareMenu::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #d3d3d3;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 1px solid #d3d3d3;
+    position: absolute;
+    bottom: 100%;
+    left: 17%;
+    transform: rotate(45deg);
+    margin-bottom: -5px;
+    background: white;
+}
+
+.SoftwareMenu-row {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    transition: 0.5s ease;
+}
+.SoftwareMenu-row:hover {
+    background-color: rgba(0, 145, 174, 0.1);
+}
+
+.row1, .row2, .row3 {
+    padding: 14px 0;
+}
+
+.row1, .row2 {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.SoftwareMenu-icon {
+    width: 44px;
+    height: 41px;
+    text-align: center;
+    padding-top: 4px;
+    color: #ff7a59;
+    background-color: #f7f8f9;
+}
+
+.SoftwareMenu-content {
+    width: 87%;
+    text-align: left;
+}
+
+.SoftwareMenu-content h4 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.SoftwareMenu-content p {
+    font-size: 13px;
+    font-weight: 200;
+    margin: 0;
+}
+
+
+
+

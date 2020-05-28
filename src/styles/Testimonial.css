@@ -1,0 +1,58 @@
+.Testimonial {
+    padding: 120px 0px;
+    background-color: white;
+}
+
+.Testimonial-box {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Testimonial-content {
+    width: 45%;
+    text-align: left;
+}
+
+.Testimonial-image-container {
+    width: 30%;
+}
+
+.Testimonial-content h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+p.description {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+p.mini {
+    margin-top: 28px;
+    width: 100%;
+    font-weight: 600;
+    font-weight: 300;
+}
+
+.Testimonial-content button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    padding: 24px 34px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Testimonial-content button:hover {
+    opacity: 0.5;
+}
+
+img.Testimonial-image {
+    width: 100%;
+}

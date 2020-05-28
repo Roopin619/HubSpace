@@ -1,0 +1,52 @@
+.PartnersMenu {
+    width: 660px;
+    height: 125px;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 10;
+    position: absolute;
+    padding: 16px 24px;
+    top: 100%;
+    right: -114px;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PartnersMenu::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #d3d3d3;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 1px solid #d3d3d3;
+    position: absolute;
+    bottom: 100%;
+    left: 80%;
+    transform: rotate(45deg);
+    margin-bottom: -5px;
+    background: white;
+}
+
+.PartnersMenu-box {
+    width: 50%;
+    text-align: left;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
+.PartnersMenu-box:hover {
+    background-color: rgba(0, 145, 174, 0.1);
+}
+
+.PartnersMenu-box h4 {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.PartnersMenu-box p {
+    font-size: 13px;
+    font-weight: 200;
+}

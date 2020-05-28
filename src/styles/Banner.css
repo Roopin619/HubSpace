@@ -1,0 +1,24 @@
+.Banner {
+    background-color: #425b76;
+}
+
+.Banner p {
+    width: 85%;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 400;
+    padding: 18px;
+    line-height: 28px;
+}
+
+.Banner a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Banner a:hover {
+    color: skyblue;
+}

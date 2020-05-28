@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.chat {
+  width: 6%;
+  border: 3px solid #444444;
+  border-radius: 50%;
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.3s ease-in-out;
+}
+.chat:hover {
+  transform: scale(1.05);
+}

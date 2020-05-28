@@ -1,0 +1,68 @@
+.Card {
+    width: 32%;
+    padding: 32px;
+    text-align: left;
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.Card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px #eaf0f6;
+}
+
+.Card-title {
+    display: flex;
+    align-items: center;
+    padding: 11px 0px;
+}
+
+.Card-title h4 {
+    margin-top: 0;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.Card-title i {
+    color: #ff7a59;
+}
+
+.Card p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 14px 0px 28px 0px;
+    font-weight: 400;
+}
+
+.Card-features {
+    border-top: 1px solid #d3d3d3;
+}
+
+.Card-features h5 {
+    padding: 24px 0px 2px 0;
+}
+
+.Card-features-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.Card-features-row i {
+    font-size: 18px;
+    color: #ff7a59;
+}
+
+.Card-features-row p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 4px 0px 4px 12px;
+}
+
+.Card-features-button {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 0px;
+}
